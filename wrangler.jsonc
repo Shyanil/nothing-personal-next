@@ -1,0 +1,19 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "nothing-personal-next",
+  "main": ".open-next/worker.js",
+  "upload_source_maps": true,
+  "compatibility_date": "2026-11-13",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "vars": {
+    "SUPABASE_URL": "https://eugzxotmsohdrkoydfya.supabase.co",
+    "SUPABASE_PUBLISHABLE_KEY": "sb_publishable__AFpwTyLsc2COKmjh-PxgA_UbKopxwD"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
