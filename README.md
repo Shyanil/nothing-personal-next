@@ -22,8 +22,8 @@
 ## Cloudflare Workers with GitHub
 - Connect this repository as a **Worker** named `nothing-personal-next`, not a static Pages project. The app has dynamic Next.js routes; the Worker name must match `wrangler.jsonc`.
 - Production branch: `main`; root directory: `/`.
-- Build command: `npm run cf:build`.
-- Deploy command: `npm run cf:deploy`.
+- Build command: `npm run build` (runs Next.js, then packages the OpenNext Worker).
+- Deploy command: `npx wrangler deploy`.
 - The public Supabase URL and publishable key are in `wrangler.jsonc`; its publishable key has only the insert permission granted by `supabase/nothing_personal.sql`.
 - If using `/admin`, set `ADMIN_KEY` and `SUPABASE_SECRET_KEY` as Worker secrets in the Cloudflare dashboard. The signup form does not need these secrets.
 - The `.env` file is for local development and is not committed.

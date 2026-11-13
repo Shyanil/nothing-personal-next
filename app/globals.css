@@ -4,7 +4,7 @@
   --ink:#f1e9dc; --muted:#a59b90; --bone:#e9dfcc;
   --red:#e0141f; --red-hi:#ff2a35; --red-deep:#8d0b12; --red-glow:rgba(224,20,31,.45);
   --ok:#4ee08a; --err:#ff6b6b; --gold:#ffb347;
-  --hud:var(--font-hud),system-ui,sans-serif; --goth:var(--font-goth),serif; --body:var(--font-body),system-ui,sans-serif;
+  --hud:'Chakra Petch',system-ui,sans-serif; --goth:'Cinzel',serif; --body:'Inter',system-ui,sans-serif;
   --safe-b:env(safe-area-inset-bottom,0px);
   --hud-h:54px; --bar-h:76px;
 }
